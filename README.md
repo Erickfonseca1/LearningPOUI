@@ -1,6 +1,6 @@
 # MyPoProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0 but still working with version 15. It was a project to learnig how to work with angular and how to use POUI material design 
 
 ## Development server
 
