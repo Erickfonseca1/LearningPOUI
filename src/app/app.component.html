@@ -2,6 +2,7 @@
 <p>{{title}}</p>
 <br>
 
+<po-dynamic-form [p-fields]="[{ property: 'name', required: true, showRequired: true }]"> </po-dynamic-form>
 <!--two-way data binding-->
 Nome: <input [(ngModel)]="user.name"><br>
 CPF:  <input [(ngModel)]="user.cpf"><br>
