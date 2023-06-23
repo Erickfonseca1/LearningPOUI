@@ -1,0 +1,11 @@
+
+<po-container *ngFor="let user of users" class="po-row">
+
+  <po-avatar class="po-md-4" p-size="lg" p-src="avatar"> </po-avatar>
+
+  <div class="po-md-8">
+    <p><strong>Nome: </strong>{{user.name}}</p>
+    <p><strong>CPF: </strong>{{user.cpf}}</p>
+    <p><strong>Idade: </strong>{{user.age}}</p>
+  </div>
+</po-container>

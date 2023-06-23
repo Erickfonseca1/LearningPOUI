@@ -1,15 +1,6 @@
 <!--interpolação-->
-<p>{{title}}</p>
-<br>
+<div class="body">
+  <app-user-form></app-user-form>
+  <app-user-list></app-user-list>
+</div>
 
-<po-dynamic-form [p-fields]="[{ property: 'name', required: true, showRequired: true }]"> </po-dynamic-form>
-<!--two-way data binding-->
-Nome: <input [(ngModel)]="user.name"><br>
-CPF:  <input [(ngModel)]="user.cpf"><br>
-Idade: <input [(ngModel)]="user.age"><br>
-<button (click)="insertUser()">Enviar</button><br>
-
-<ul>
-<!--utilizando for e interpolação-->
-  <li *ngFor="let user of users">{{user.name}}</li>
-</ul>

@@ -1,0 +1,23 @@
+
+po-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 750px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+}
+
+.avatar {
+  display: flex;
+  margin-left: 20px;
+}
+
+.user-info {
+  display: flex;
+
+}
+
+

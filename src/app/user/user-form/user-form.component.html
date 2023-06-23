@@ -1,0 +1,11 @@
+
+<!--two-way data binding-->
+<po-container>
+  <h1 class="title">Cadastro de Usuário</h1>
+  <div class="form">
+    <po-input name="input" p-label="Nome" [(ngModel)]="user.name"> </po-input>
+    <po-input name="input" p-label="CPF" [(ngModel)]="user.cpf"> </po-input>
+    <po-input name="input" p-label="Idade" [(ngModel)]="user.age"> </po-input>
+  </div>
+  <po-button p-label="Salvar" (p-click)="insertUser()"> </po-button>
+</po-container>
