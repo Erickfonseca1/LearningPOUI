@@ -21,6 +21,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     FormsModule,
     PoDynamicModule,
     PoModule,
+    BrowserAnimationsModule
   ]
 })
 export class UserModule { }

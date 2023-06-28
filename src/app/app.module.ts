@@ -7,6 +7,7 @@ import {FormsModule} from "@angular/forms";
 import { PoModule } from '@po-ui/ng-components';
 import { HttpClientModule } from '@angular/common/http';
 import {UserModule} from "./user/user.module";
+import {LayoutModule} from "./layout/layout.module";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {UserModule} from "./user/user.module";
     FormsModule,
     PoModule,
     HttpClientModule,
-    UserModule
+    UserModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
